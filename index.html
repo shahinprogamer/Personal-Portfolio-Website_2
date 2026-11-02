@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Alex Morgan | Personal Portfolio</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts: Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <!-- Separate CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-symbol">AM</span>
+        <span class="logo-text">Alex<span>Morgan</span></span>
+      </a>
+      <nav class="navbar">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="hero-greeting">Hello, I'm</span>
+          <h1 class="hero-name">Alex Morgan</h1>
+          <h2 class="hero-role">Full‑Stack <span class="highlight">Developer</span> & UI/UX Enthusiast</h2>
+          <p class="hero-desc">I craft beautiful, performant web applications with a focus on clean code and delightful user experiences. Passionate about turning complex problems into simple, elegant solutions.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+          </div>
+          <div class="hero-social">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-blob"></div>
+          <div class="hero-avatar">
+            <i class="fas fa-user-astronaut"></i>
+          </div>
+          <div class="floating-tag tag1"><i class="fab fa-react"></i> React</div>
+          <div class="floating-tag tag2"><i class="fab fa-node-js"></i> Node.js</div>
+          <div class="floating-tag tag3"><i class="fab fa-figma"></i> Figma</div>
+          <div class="floating-tag tag4"><i class="fas fa-database"></i> MongoDB</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2>Who I <span class="highlight">am</span></h2>
+          <p>A little bit about my journey and what drives me.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-image">
+            <div class="about-photo">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="about-stats">
+              <div><span>5+</span><br>Years Exp.</div>
+              <div><span>40+</span><br>Projects</div>
+              <div><span>20+</span><br>Clients</div>
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Passionate about building <span class="highlight">digital experiences</span> that matter.</h3>
+            <p>I'm a full-stack developer based in San Francisco with a strong background in both frontend and backend technologies. I love solving problems, learning new things, and collaborating with creative minds.</p>
+            <p>My approach combines technical excellence with design thinking. I believe great software is not just functional—it should feel intuitive and enjoyable to use.</p>
+            <ul class="about-info">
+              <li><i class="fas fa-user"></i> <strong>Name:</strong> Alex Morgan</li>
+              <li><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> San Francisco, CA</li>
+              <li><i class="fas fa-envelope"></i> <strong>Email:</strong> hello@alexmorgan.dev</li>
+              <li><i class="fas fa-briefcase"></i> <strong>Availability:</strong> Open to freelance</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Download CV <i class="fas fa-download"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">My Skills</span>
+          <h2>Technologies I <span class="highlight">work with</span></h2>
+          <p>A toolkit built over years of hands-on experience.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+            <div class="skill-list">
+              <div class="skill-item"><span>HTML5</span><div class="progress"><div class="progress-bar" style="width: 95%"></div></div></div>
+              <div class="skill-item"><span>CSS3 / Sass</span><div class="progress"><div class="progress-bar" style="width: 92%"></div></div></div>
+              <div class="skill-item"><span>JavaScript</span><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
+              <div class="skill-item"><span>React / Next.js</span><div class="progress"><div class="progress-bar" style="width: 88%"></div></div></div>
+              <div class="skill-item"><span>TypeScript</span><div class="progress"><div class="progress-bar" style="width: 85%"></div></div></div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <div class="skill-list">
+              <div class="skill-item"><span>Node.js / Express</span><div class="progress"><div class="progress-bar" style="width: 88%"></div></div></div>
+              <div class="skill-item"><span>Python / Django</span><div class="progress"><div class="progress-bar" style="width: 82%"></div></div></div>
+              <div class="skill-item"><span>REST APIs</span><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
+              <div class="skill-item"><span>GraphQL</span><div class="progress"><div class="progress-bar" style="width: 78%"></div></div></div>
+              <div class="skill-item"><span>SQL / MongoDB</span><div class="progress"><div class="progress-bar" style="width: 85%"></div></div></div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-paint-brush"></i> Design & Tools</h3>
+            <div class="skill-list">
+              <div class="skill-item"><span>Figma</span><div class="progress"><div class="progress-bar" style="width: 90%"></div></div></div>
+              <div class="skill-item"><span>UI/UX Principles</span><div class="progress"><div class="progress-bar" style="width: 87%"></div></div></div>
+              <div class="skill-item"><span>Git / GitHub</span><div class="progress"><div class="progress-bar" style="width: 93%"></div></div></div>
+              <div class="skill-item"><span>Docker</span><div class="progress"><div class="progress-bar" style="width: 75%"></div></div></div>
+              <div class="skill-item"><span>Responsive Design</span><div class="progress"><div class="progress-bar" style="width: 95%"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio</span>
+          <h2>Featured <span class="highlight">projects</span></h2>
+          <p>A selection of recent work I'm proud of.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Web App</span>
+              <h3>FinTrack Dashboard</h3>
+              <p>A real-time financial analytics dashboard with interactive charts, custom reporting, and multi-user support.</p>
+              <div class="project-tags">
+                <span>React</span><span>D3.js</span><span>Node</span>
+              </div>
+              <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb">
+              <i class="fas fa-shopping-bag"></i>
+            </div>
+            <div class="project-body">
+              <span class="project-category">E‑Commerce</span>
+              <h3>Urban Threads</h3>
+              <p>A modern fashion e‑commerce store with seamless checkout, product filtering, and admin inventory management.</p>
+              <div class="project-tags">
+                <span>Next.js</span><span>Stripe</span><span>MongoDB</span>
+              </div>
+              <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Productivity</span>
+              <h3>TaskFlow</h3>
+              <p>A collaborative task management tool with drag‑and‑drop boards, real‑time updates, and team notifications.</p>
+              <div class="project-tags">
+                <span>Vue.js</span><span>Firebase</span><span>Tailwind</span>
+              </div>
+              <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE SECTION ========== -->
+    <section id="experience" class="experience section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career</span>
+          <h2>My <span class="highlight">experience</span></h2>
+          <p>Where I've worked and what I've learned.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2022 — Present</span>
+              <h3>Senior Full‑Stack Developer</h3>
+              <h4>TechNova Solutions</h4>
+              <p>Lead development of client-facing web applications, mentor junior developers, and drive adoption of modern frameworks and best practices.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2020 — 2022</span>
+              <h3>Frontend Developer</h3>
+              <h4>Creative Labs</h4>
+              <p>Built responsive, accessible interfaces for enterprise clients. Collaborated with designers to translate mockups into pixel‑perfect UI.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2019 — 2020</span>
+              <h3>Junior Web Developer</h3>
+              <h4>StartUp Hub</h4>
+              <p>Developed and maintained websites for early‑stage startups. Gained hands‑on experience with the full development lifecycle.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="contact section">
+      <div class="container contact-wrapper">
+        <div class="contact-info">
+          <span class="section-tag">Contact</span>
+          <h2>Let's work <span class="highlight">together</span></h2>
+          <p>Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div><strong>Email</strong><br>hello@alexmorgan.dev</div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div><strong>Phone</strong><br>+1 (555) 987‑6543</div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div><strong>Location</strong><br>San Francisco, CA</div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" id="name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" id="email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" id="subject" required>
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Your Message" id="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+          <div id="formFeedback" class="form-feedback"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2025 Alex Morgan. All rights reserved.</p>
+      <p>Designed & built with <i class="fas fa-heart"></i> by Alex Morgan</p>
+    </div>
+  </footer>
+
+  <!-- Separate JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
